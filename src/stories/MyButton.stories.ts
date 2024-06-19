@@ -13,6 +13,7 @@ const meta: Meta<typeof MyButton> = {
     },
     template: "<MyButton v-bind='args' />",
   }),
+  tags: ["autodocs"], // ここを追加
   args: {
     label: "ボタン",
     variant: "primary",
