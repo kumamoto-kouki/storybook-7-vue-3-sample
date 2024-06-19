@@ -1,0 +1,27 @@
+{
+  "name": "storybook-7-vue-3-sample",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.4.21"
+  },
+  "devDependencies": {
+    "@storybook/addon-controls": "^8.1.10",
+    "@storybook/vue3-vite": "^8.1.10",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "storybook": "8.1.10",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0",
+    "vue-tsc": "^2.0.6"
+  },
+  "resolutions": {
+    "glob": "^9.0.0",
+    "rimraf": "^4.0.0"
+  }
+}
