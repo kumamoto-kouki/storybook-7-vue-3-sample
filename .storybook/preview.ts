@@ -1,10 +1,10 @@
-import { Decorator, Parameters } from "@storybook/vue3";
-import pinia from "../src/pinia";
 import i18n from "../src/i18n";
-import { setup } from "@storybook/vue3";
 import pinia, { useCurrentUserStore } from "../src/pinia";
+import { Decorator, Parameters } from "@storybook/vue3";
+import { setup } from "@storybook/vue3";
 
 export const parameters: Parameters = {};
+
 export const decorators: Decorator[] = [
     (story, context) => {
       i18n.global.locale = context.globals.locale;
