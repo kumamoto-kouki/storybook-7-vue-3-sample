@@ -11,7 +11,8 @@ const config: StorybookConfig = {
     "@storybook/addon-measure",
     "@storybook/addon-outline",
     "@storybook/addon-docs",
-    "@storybook/addon-interactions", // 追加
+    "@storybook/addon-interactions",
+    "@storybook/addon-toolbars"
   ],
 };
 
