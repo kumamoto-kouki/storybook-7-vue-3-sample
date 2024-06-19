@@ -12,6 +12,7 @@
     "vue": "^3.4.21"
   },
   "devDependencies": {
+    "@storybook/addon-actions": "^8.1.10",
     "@storybook/addon-controls": "^8.1.10",
     "@storybook/vue3-vite": "^8.1.10",
     "@vitejs/plugin-vue": "^5.0.4",
